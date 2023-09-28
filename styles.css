@@ -1,0 +1,63 @@
+#logo{
+    width: 150px;
+    height: 60px;
+}
+h1{
+    color: #15233c;
+    font-weight: 650;
+}
+#navbarNavDropdown li a:hover{
+    color: #015FC9;
+}
+#menu1{
+    color: #015FC9;
+}
+#navbarNavDropdown li a{
+    font-weight: 500;
+}
+#signin:hover{
+    background-color: #0dd3f1;
+    border: solid 1px #0dd3f1;
+}
+#signin{
+    background-color: #015FC9;
+}
+#a{
+    color:#696E77 ;
+    position: relative;
+}
+#a + ul li a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none; 
+    padding: 5px 40px 5px 20px;
+}
+#a + ul li{
+    margin: 5px;
+}
+#a + ul li a:hover{
+    color: black; 
+    background-color: #e3e3e3;
+}
+#b{
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+    opacity: 0;
+    top: 100px;
+    transition: all .4s ease-in-out;
+}
+#a:hover +ul{
+    opacity: 1;
+    transform: translateY(-35px);
+}
+#b:hover{
+    opacity: 1;
+    transform: translateY(-35px);
+}
+#dropmenu{
+    background-color: transparent;
+    border: 0;
+}
