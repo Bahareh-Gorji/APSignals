@@ -23,7 +23,7 @@ h1{
     left: 5%;
 }
 .carousel-inner{
-    min-height: 380px;
+    min-height: 400px;
 }
 .carousel-inner p{
     font-size: 1.3rem;
@@ -44,7 +44,7 @@ button{
 }
 #buts{
     position: relative;
-    bottom: 11%; 
+    bottom: 10%; 
 }
 button:hover{
     background-color: #0dd3f1;
@@ -93,13 +93,18 @@ button:hover{
         transform: scale(1);  
     }
 }
-@media (max-width:350px){
+@media (max-width:450px){
     .carousel-inner{
-        height: 450px;
+        height: 460px;
     } 
 }
 @media (max-width:505px){
     #buts{
         bottom: 0%;
+    }
+}
+@media (min-width:992px) and (max-width:1050px){
+    #buts{
+        bottom:6%
     }
 }
