@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 #logo{
     width: 150px;
-    min-height: 60px;
+    max-height: 60px;
 }
 .poppins{
     font-family: "Poppins",sans-serif;
