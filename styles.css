@@ -46,30 +46,32 @@ h1{
     cursor: pointer;
 }
 #a + ul li a{
-    color: black;
-    padding: 5px 40px 5px 20px;
+    color: #212529;
+    padding: 5px 52px 5px 13px;
 }
 #a + ul li a:hover{
     color: black; 
-    background-color: #f3f3f3;
+    background-color: #e9ecef;
 }
 #b{
     position: absolute;
-    background-color: #ffffff;
-    padding: 10px;
+    color: #212529;
+    background-color: #f6f7fc;
     list-style: none;
     border-radius: 10px;
     opacity: 0;
-    top: 100px;
-    transition: all .4s ease-in-out;
+    top: 90px;
+    transition: all .4s ease-out;
+    padding: 8px 0 !important;
+    border: 0 !important;
 }
 #a:hover +ul{
     opacity: 1;
-    transform: translateY(-35px);
+    transform: translateY(-27px);
 }
 #b:hover{
     opacity: 1;
-    transform: translateY(-35px);
+    transform: translateY(-27px);
 }
 #dropmenu{
     background-color: transparent;
