@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-button.btn:hover{
+button.button:hover{
     background-color:#0dd3f1;
 }
-button.btn{
+button.button{
     text-decoration: none;
     font-size: 1rem;
     border-radius: 10px;
   width: 200px;
   height: 55px;
   background-color: #015FC9;
-
+ 
 }
 h1.font-family{
     font-family: 'Poppins',sans-serif;
