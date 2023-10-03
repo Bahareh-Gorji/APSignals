@@ -1,6 +1,5 @@
-a{
-    text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 .footer-color{
     background-color: #15233c;
 }
@@ -11,9 +10,6 @@ div.footer-link>a{
 .btn,.footer-icon{
 
     border-radius: 5px;
-}
-i{
-    color: #A7a8b4;
 }
 div.footer-divider{
     padding: 25px 0;
@@ -27,34 +23,68 @@ align-items: center;
 justify-content: center;
 }
 a.footer-icon{
-    border: solid 1px white;
+    border: solid 1px #A7a8b4;
     border-radius: 10px;
+    color: #A7a8b4;
 }
 div>input,button{
     border-radius: 10px !important;
 }
 .icon{
     transition: all 0.1s;
+    color: #A7a8b4;
 }
 i.bi.icon:hover{
-background-color: aqua;
+color: aqua;
 }
-::placeholder{
-    color: white !important;
+.footer-place::placeholder{
+    color: #A7a8b4!important;
 }
 .scale{
-    transition: 0.5s;
+    display: block;
+    border: none;
+    text-align: left;
+    margin-bottom: 5px;
+    transition: 10s;
 }
-a:hover.scale{
-    scale: 1.09;
-    color: white;
-}
-button:hover {
-    background-color: blue;
-}
+ .hov:hover {
+    display: inline-block;
+    transform: scaleX(1.1);
+    color: #f6f7fc;
+    border: #15233c solid 1px;
+    transform-origin: left;
+  }
 .font-color{
     color: #A7a8b4;
 }
 a.font-color>i{
     color: #A7a8b4;
+}
+.footer-icon:hover{
+border: #f6f7fc solid 1px;
+}
+.button{
+    background-color:#0dd3f1 ;
+    border: none;
+ transition: 0.5s;
+}
+.button:hover{
+background-color: #015fc9;
+border: none;
+}
+.column-one{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #A7a8b4;
+}
+.font{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    color: #f6f7fc;
+}
+.column-one>a{
+    text-decoration: none;
+    color: #0dd3f1;
+
 }
