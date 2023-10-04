@@ -93,9 +93,6 @@
 .carousel-item {
 min-height: 450px;
 }
-.carousel-caption .btn{
-  background-color:#015fc9 !important ;
-}
 .carousel-item img{
 min-height: 450px;
 object-fit: cover;
@@ -116,6 +113,18 @@ object-fit: cover;
   border: 15px solid #015fc9 !important;
 
 } 
+.btnincarousel{
+  background-color: #015fc9;
+  cursor: pointer;
+  border-radius: 10px !important;
+  font-weight: 400 !important;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+.btnincarousel:hover{
+  background-color: #0dd3f1;
+  border: solid 1px #0dd3f1;
+}
 
 h1 {
   animation: slideDown 1s ease-in-out;
