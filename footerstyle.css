@@ -40,19 +40,23 @@ color: aqua;
 .footer-place::placeholder{
     color: #A7a8b4!important;
 }
+a.scale>i{
+    color: #f6f7fc;
+}
 .scale{
     display: block;
     border: none;
     text-align: left;
     margin-bottom: 5px;
-    transition: 10s;
+    transition: 0.3s 0 0.3s;
 }
  .hov:hover {
     display: inline-block;
-    transform: scaleX(1.1);
+    transform: scaleX(1.1) ;
     color: #f6f7fc;
     border: #15233c solid 1px;
     transform-origin: left;
+   font-weight: 100;
   }
 .font-color{
     color: #A7a8b4;
