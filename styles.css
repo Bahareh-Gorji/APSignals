@@ -125,7 +125,9 @@ object-fit: cover;
   background-color: #0dd3f1;
   border: solid 1px #0dd3f1;
 }
-
+.btnincarousel:focus{
+  background-color: #0dd3f1 !important;
+}
 h1 {
   animation: slideDown 1s ease-in-out;
 }
