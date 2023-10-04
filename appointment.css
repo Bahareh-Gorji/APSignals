@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.appointment{
+   background-color: rgba(1, 95, 201, 0.9);
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+}
+p.text{
+    font-family: 'Roboto', sans-serif;
+}
+#color-box{
+    background-color: #015fc9;
+}
+.label-new{
+    color: #696e77;
+}
+#button-two{
+    transition: 1s;
+}
+#button-two:hover{
+background-color: #0dd3f1;
+border: none;
+}
