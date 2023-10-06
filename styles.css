@@ -394,6 +394,27 @@ h5 {
 .heartbeat {
   animation: heartbeat 1.5s infinite;
 }
+.onel{
+  min-height: 400px;
+ 
+
+ 
+}
+.twol{
+  width: 200px; 
+  height: 200px;
+  
+}
+
+.imgg{
+  margin-top: 2rem;
+  object-fit: cover !important;
+}
+.threel{
+  background-color: #015FC9 !important;
+}
+
+
 
 @keyframes slideDown {
   0% {
@@ -459,7 +480,7 @@ color: #15233C;
 .nav{
 margin-left: 50px;
 }
-h1 {
+#anima {
   animation: slideDown 1s ease-in-out;
 }
 
