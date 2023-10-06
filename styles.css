@@ -6,6 +6,9 @@
 .roboto {
   font-family: "Roboto", sans-serif;
 }
+.bg-dark {
+  background-color: #15233c !important;
+}
 .text-dark {
   color: #15233c !important;
 }
@@ -362,7 +365,7 @@ h5 {
   background-color: #0dd3f1;
 }
 .carousel-item2 {
-  transition: cubic-bezier(.3,1.09,.72,.91) 1.1s;
+  transition: cubic-bezier(0.3, 1.09, 0.72, 0.91) 1.1s;
 }
 #col1 img {
   position: absolute;
