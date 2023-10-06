@@ -134,7 +134,7 @@
 .btnincarousel1:focus {
   background-color: #0dd3f1 !important;
 }
-h1 {
+h2 {
   animation: slideDown 1s ease-in-out;
 }
 .service-item {
@@ -322,10 +322,6 @@ a.font-color > i {
   text-decoration: none;
   color: #0dd3f1;
 }
-
-h1.carousel2 {
-  font-weight: 700;
-}
 #imgcarousel2 {
   width: 100px;
   height: 100px;
@@ -366,7 +362,7 @@ h5 {
   background-color: #0dd3f1;
 }
 .carousel-item2 {
-  transition: ease-out 1s;
+  transition: cubic-bezier(.3,1.09,.72,.91) 1.1s;
 }
 #col1 img {
   position: absolute;
@@ -452,7 +448,7 @@ h5 {
     height: 460px;
   }
 }
-@media (max-width: 505px) {
+@media (max-width: 525px) {
   #buts {
     bottom: 0%;
   }
