@@ -147,7 +147,7 @@
 .btnincarousel1:focus {
   background-color: #0dd3f1 !important;
 }
-h2 {
+#anima {
   animation: slideDown 1s ease-in-out;
 }
 .service-item {
