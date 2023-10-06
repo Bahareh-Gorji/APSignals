@@ -462,3 +462,47 @@ h5 {
     bottom: 6%;
   }
 }
+.bakgrand-img{
+  padding: 10px;
+  height: 311px;
+  background-image: url(image/light\ gray.png);
+  width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); 
+.fafont{
+font-family: 'Poppins', sans-serif; 
+font-size: 3.5rem;
+color: #15233C;
+}
+.faelement{
+  color: rgb(149, 139, 139)!important;
+ text-decoration: none;
+}
+.faelement:hover{
+  color: #015fc9 !important;
+}
+.nav{
+margin-left: 50px;
+}
+h1 {
+  animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+.f-font{
+  font-size: sw-bold‏;
+  font-family: 'Poppins', sans-serif;
+}
+.fa-last-a{
+text-decoration: none !important;
+}
