@@ -627,3 +627,35 @@ label.click{
     bottom: 6%;
   }
 }
+
+
+.title-one{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #15233c;
+}
+p.text-one{
+  font-family: 'Roboto', sans-serif;
+}
+#color-id{
+  background-color: #f6f7fc ;
+  border-radius: 10px !important;
+}
+.label-new-one{
+  color: #46494d;
+}
+#button-two-one{
+transition: 0.5s;
+border:white solid;
+border-radius: 10px;
+}
+#button-two-one:hover{
+background-color: #0dd3f1;
+
+}
+.radios{
+  border-radius: 10px !important;
+}
+#box-id{
+  background-color: #f6f7fc;
+}
