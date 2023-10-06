@@ -6,6 +6,9 @@
 .roboto {
   font-family: "Roboto", sans-serif;
 }
+.bg-dark {
+  background-color: #15233c !important;
+}
 .text-dark {
   color: #15233c !important;
 }
@@ -362,7 +365,7 @@ h5 {
   background-color: #0dd3f1;
 }
 .carousel-item2 {
-  transition: cubic-bezier(.3,1.09,.72,.91) 1.1s;
+  transition: cubic-bezier(0.3, 1.09, 0.72, 0.91) 1.1s;
 }
 #col1 img {
   position: absolute;
@@ -394,27 +397,21 @@ h5 {
 .heartbeat {
   animation: heartbeat 1.5s infinite;
 }
-.onel{
+.onel {
   min-height: 400px;
- 
-
- 
 }
-.twol{
-  width: 200px; 
+.twol {
+  width: 200px;
   height: 200px;
-  
 }
 
-.imgg{
+.imgg {
   margin-top: 2rem;
   object-fit: cover !important;
 }
-.threel{
-  background-color: #015FC9 !important;
+.threel {
+  background-color: #015fc9 !important;
 }
-
-
 
 @keyframes slideDown {
   0% {
@@ -458,28 +455,29 @@ h5 {
     bottom: 6%;
   }
 }
-.bakgrand-img{
+.bakgrand-img {
   padding: 10px;
   height: 311px;
   background-image: url(image/light\ gray.png);
   width: 100%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); 
-.fafont{
-font-family: 'Poppins', sans-serif; 
-font-size: 3.5rem;
-color: #15233C;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.fafont {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  color: #15233c;
 }
-.faelement{
-  color: rgb(149, 139, 139)!important;
- text-decoration: none;
+.faelement {
+  color: rgb(149, 139, 139) !important;
+  text-decoration: none;
 }
-.faelement:hover{
+.faelement:hover {
   color: #015fc9 !important;
 }
-.nav{
-margin-left: 50px;
+.nav {
+  margin-left: 50px;
 }
+
 #anima {
   animation: slideDown 1s ease-in-out;
 }
@@ -494,11 +492,6 @@ margin-left: 50px;
     opacity: 1;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-.f-font{
-  font-size: sw-bold‏;
-  font-family: 'Poppins', sans-serif;
-}
-.fa-last-a{
-text-decoration: none !important;
+.fa-last-a {
+  text-decoration: none !important;
 }
