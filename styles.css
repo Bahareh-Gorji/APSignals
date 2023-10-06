@@ -147,7 +147,7 @@
 .btnincarousel1:focus {
   background-color: #0dd3f1 !important;
 }
-h2 {
+#anima {
   animation: slideDown 1s ease-in-out;
 }
 .service-item {
@@ -559,3 +559,83 @@ label.click{
 }
 
 /* *************************************************MAP-END********************************************* */
+/* .............................blue bord................. */
+.f-big{
+  height: 500px;
+
+}
+.f-box1{
+  background-color:rgba(81, 154, 237, 0.9);
+  height:500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:5rem ;
+  background-color:rgba(1, 95, 201, 0.9) ;
+}
+.f-box2{
+ height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient( rgba(220, 220, 220, 0.9), rgba(220, 220, 220, 0.9) );
+
+}
+.f-box1 button{
+  background-color: rgb(61, 233, 233);
+  align-self: start;
+
+}
+
+.f-namber{
+  font-size: calc(1.425rem + 2.1vw)!important;
+  font-weight: 780;
+  line-height: 1.2;
+  color: #15233C;
+  margin-bottom: 0.5rem;
+  font-family: Poppins, sans-serif;
+}
+.ff-link{
+  text-decoration:none;
+  color: azure;
+   
+}
+.f-box1 button:focus{
+  box-shadow: 0 0 0 0.25rem rgba(11,179,205,0.5);
+}
+.fa-color{
+  color: #015FC9 !important;
+}
+.text-white {
+  color: #fff !important;
+}
+.text-light {
+  color: #F6F7FC !important;
+}
+.f-h2{
+  animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* ........startmenu f............. */
+.imgf700 {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.displayff-6 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 700;
+  line-height: 1.2;
+}
+/* ..........end menu f................. */
