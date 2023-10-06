@@ -244,7 +244,6 @@ p.text {
   opacity: 1;
   bottom: 0;
 }
-
 .footer-color{
   background-color: #15233c;
 }
@@ -253,7 +252,6 @@ div.footer-link>a{
   color: #A7a8b4;
 }
 .btn,.footer-icon{
-
   border-radius: 5px;
 }
 div.footer-divider{
@@ -315,8 +313,8 @@ a.font-color>i{
 border: #f6f7fc solid 1px;
 }
 .button{
-  background-color:#0dd3f1 ;
-  border: none;
+background-color:#0dd3f1 ;
+border: none;
 transition: 0.5s;
 }
 .button:hover{
@@ -337,7 +335,6 @@ border: none;
 .column-one>a{
   text-decoration: none;
   color: #0dd3f1;
-
 }
 .column-one>a:hover{
   color: #f6f7fc;
@@ -430,7 +427,6 @@ h5 {
   width: 200px;
   height: 200px;
 }
-
 .imgg {
   margin-top: 2rem;
   object-fit: cover !important;
@@ -438,7 +434,6 @@ h5 {
 .threel {
   background-color: #015fc9 !important;
 }
-
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
@@ -458,27 +453,6 @@ h5 {
   }
   100% {
     transform: scale(1);
-  }
-}
-@media (min-width: 310px) and (max-width: 992px) {
-  #logo {
-    width: 110px;
-    height: 45px;
-  }
-}
-@media (max-width: 450px) {
-  .carousel-inner {
-    height: 460px;
-  }
-}
-@media (max-width: 525px) {
-  #buts {
-    bottom: 0%;
-  }
-}
-@media (min-width: 992px) and (max-width: 1050px) {
-  #buts {
-    bottom: 6%;
   }
 }
 .bakgrand-img {
@@ -503,11 +477,9 @@ h5 {
 .nav {
   margin-left: 50px;
 }
-
 #anima {
   animation: slideDown 1s ease-in-out;
 }
-
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
@@ -532,7 +504,6 @@ button.bit{
 width: 200px;
 height: 55px;
 background-color: #015FC9;
-
 }
 h1.font-family{
   font-family: 'Poppins',sans-serif;
@@ -542,7 +513,6 @@ h1.font-family{
 p.font-family{
   color: #696E77;
   font-family: 'Roboto Flex', sans-serif;
-
 }
 p.font-family>a{
   text-decoration: none;
@@ -559,19 +529,15 @@ label.click{
 }
 .map{
   border-radius: 10px;
-
 }
-
 /* *************************************************MAP-END********************************************* */
 /* .............................blue bord................. */
 .f-big{
   height: 500px;
-
 }
 .f-box1{
   background-color:rgba(81, 154, 237, 0.9);
   height:500px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -585,14 +551,11 @@ label.click{
   flex-direction: column;
   justify-content: center;
   background: linear-gradient( rgba(220, 220, 220, 0.9), rgba(220, 220, 220, 0.9) );
-
 }
 .f-box1 button{
   background-color: rgb(61, 233, 233);
   align-self: start;
-
 }
-
 .f-namber{
   font-size: calc(1.425rem + 2.1vw)!important;
   font-weight: 780;
@@ -604,7 +567,6 @@ label.click{
 .ff-link{
   text-decoration:none;
   color: azure;
-   
 }
 .f-box1 button:focus{
   box-shadow: 0 0 0 0.25rem rgba(11,179,205,0.5);
@@ -621,7 +583,6 @@ label.click{
 .f-h2{
   animation: slideDown 1s ease-in-out;
 }
-
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);
@@ -643,3 +604,26 @@ label.click{
   line-height: 1.2;
 }
 /* ..........end menu f................. */
+
+
+@media (min-width: 310px) and (max-width: 992px) {
+  #logo {
+    width: 110px;
+    height: 45px;
+  }
+}
+@media (max-width: 450px) {
+  .carousel-inner {
+    height: 460px;
+  }
+}
+@media (max-width: 525px) {
+  #buts {
+    bottom: 0%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1050px) {
+  #buts {
+    bottom: 6%;
+  }
+}
