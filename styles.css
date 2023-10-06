@@ -398,6 +398,21 @@ h5 {
 .heartbeat {
   animation: heartbeat 1.5s infinite;
 }
+.onel {
+  min-height: 400px;
+}
+.twol {
+  width: 200px;
+  height: 200px;
+}
+
+.imgg {
+  margin-top: 2rem;
+  object-fit: cover !important;
+}
+.threel {
+  background-color: #015fc9 !important;
+}
 
 @keyframes slideDown {
   0% {
@@ -441,29 +456,30 @@ h5 {
     bottom: 6%;
   }
 }
-.bakgrand-img{
+.bakgrand-img {
   padding: 10px;
   height: 311px;
   background-image: url(image/light\ gray.png);
   width: 100%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); 
-.fafont{
-font-family: 'Poppins', sans-serif; 
-font-size: 3.5rem;
-color: #15233C;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.fafont {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  color: #15233c;
 }
-.faelement{
-  color: rgb(149, 139, 139)!important;
- text-decoration: none;
+.faelement {
+  color: rgb(149, 139, 139) !important;
+  text-decoration: none;
 }
-.faelement:hover{
+.faelement:hover {
   color: #015fc9 !important;
 }
-.nav{
-margin-left: 50px;
+.nav {
+  margin-left: 50px;
 }
-.fafont {
+
+#anima {
   animation: slideDown 1s ease-in-out;
 }
 
@@ -477,11 +493,11 @@ margin-left: 50px;
     opacity: 1;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-.f-font{
-  font-size: sw-bold‏;
-  font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+.f-font {
+  font-size: sw-bold;
+  font-family: "Poppins", sans-serif;
 }
-.fa-last-a{
-text-decoration: none !important;
+.fa-last-a {
+  text-decoration: none !important;
 }
